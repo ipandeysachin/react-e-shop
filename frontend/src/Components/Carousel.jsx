@@ -48,7 +48,8 @@ function Carousel() {
         </div>
       </div>
 
-      <div className="absolute text-black top-10 md:top-10 left-15 lg:h-70 lg:w-80
+      <div className="absolute text-black 
+      top-60 left-10 md:top-10 md:left-15 lg:h-70 lg:w-80
       flex flex-col justify-center">
         <div className="lg:text-2xl">
           Sachin | e-Shop
