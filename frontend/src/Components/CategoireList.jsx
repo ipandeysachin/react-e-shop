@@ -4,8 +4,8 @@ function CategoireList() {
   return (
     <div className="navbar-center">
       <ul className="menu flex px-2">
-        <div className="w-95 flex justify-start
-        overflow-auto lg:hidden">
+        <div className="w-95 flex justify-start items-center
+        overflow-auto text-black md:w-150 lg:hidden">
 
         <li>
           <a> Electronics </a>

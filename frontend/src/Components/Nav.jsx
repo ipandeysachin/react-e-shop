@@ -8,7 +8,8 @@ import CategoireList from "./CategoireList";
 function Nav() {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm flex justify-center items-center">
+      <div className="navbar bg-white shadow-sm 
+      flex justify-center items-center text-black">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -57,8 +58,8 @@ function Nav() {
       </div>
 
       <div
-        className="navbar-center hidden md:hidden 
-      lg:flex justify-around items-center"
+        className="navbar-cente hidden md:hidden 
+      lg:flex justify-around text-black items-center"
       >
         <ul className="menu menu-horizontal px-1">
           <li>
@@ -67,7 +68,7 @@ function Nav() {
           <li>
             <details>
               <summary> Shop </summary>
-              <ul className="p-2 w-50">
+              <ul className="p-2 w-50 bg-white">
                 <li>
                   <a> Electronics </a>
                 </li>
@@ -97,7 +98,7 @@ function Nav() {
           </li>
         </ul>
       </div>
-      <div className=" md:hidden lg:hidden ">
+      <div className=" lg:hidden ">
         <center>
           <CategoireList />
         </center>

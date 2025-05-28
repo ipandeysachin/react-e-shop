@@ -2,8 +2,8 @@ import React from "react";
 
 function Carousel() {
   return (
-    <div>
-      <div className="carousel carousel-center rounded-box m-2 lg:h-135">
+    <div className="relative">
+      <div className="carousel carousel-center rounded-box m-2 lg:h-135 ">
         <div className="carousel-item">
           <img
             src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
@@ -47,6 +47,25 @@ function Carousel() {
           />
         </div>
       </div>
+
+      <div className="absolute text-black top-10 md:top-10 left-15 lg:h-70 lg:w-80
+      flex flex-col justify-center">
+        <div className="lg:text-2xl">
+          Sachin | e-Shop
+        </div>
+        <div className="font-bold lg:text-3xl">
+          WELCOME TO E-SHOP 
+        </div>
+        <div className="font-medium">
+          Thousands+ Products 
+        </div>
+        <div>
+          <button className="bg-red-400 text-white font-medium px-5 py-2 mt-2">
+            SHOP NOW
+          </button>
+        </div>
+      </div>
+
     </div>
   );
 }
